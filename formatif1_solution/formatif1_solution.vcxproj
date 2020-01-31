@@ -154,12 +154,14 @@
   <ItemGroup>
     <ClCompile Include="..\screen\screen.cpp" />
     <ClCompile Include="activite.cpp" />
+    <ClCompile Include="donnees.cpp" />
     <ClCompile Include="eleve.cpp" />
     <ClCompile Include="formatif1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\screen\screen.h" />
     <ClInclude Include="activite.h" />
+    <ClInclude Include="donnees.h" />
     <ClInclude Include="eleve.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
