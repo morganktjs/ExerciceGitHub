@@ -79,9 +79,9 @@ char AfficherMenu()
 	Gotoxy(15, 14);
 	cout << "6- Afficher les inscriptions d'une activite";
 	Gotoxy(15, 16);
-	cout << "0- Arreter";
+	cout << "0- Arreter le programme";
 	Gotoxy(15, 18);
-	cout << "Choix: ";
+	cout << "Votre Choix: ";
 	cin >> choix;
 	return choix;
 }
